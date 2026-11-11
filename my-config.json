@@ -15,10 +15,21 @@
       "exclude": ""
     },
     "telegram": {
-      "enable": false,
+      "enable": true,
       "pages": 5,
       "exclude": "",
-      "channels": {}
+      "channels": {
+        "wxdy666": {
+          "include": "",
+          "exclude": "",
+          "task": {
+            "rename": ""
+          },
+          "push_to": [
+            "default"
+          ]
+        }
+      }
     },
     "google": {
       "enable": false,
