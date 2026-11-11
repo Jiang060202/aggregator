@@ -1,1 +1,91 @@
-ewogICJzaXRlcyI6IFtdLAogICJjcmF3bCI6IHsKICAgICJlbmFibGUiOiB0cnVlLAogICAgImV4Y2x1ZGUiOiAiIiwKICAgICJtYXhfZmFpbHMiOiA1LAogICAgImluY2x1ZGVfbm9kZXMiOiB0cnVlLAogICAgInBlcnNpc3QiOiB7CiAgICAgICJzdWJzY3JpYmUiOiAiY3Jhd2xlZHN1YnMiLAogICAgICAibm9kZXMiOiAiY3Jhd2xlZHByb3hpZXMiCiAgICB9LAogICAgInRhc2siOiB7CiAgICAgICJyZW5hbWUiOiAiIiwKICAgICAgImluY2x1ZGUiOiAiIiwKICAgICAgImV4Y2x1ZGUiOiAiIgogICAgfSwKICAgICJ0ZWxlZ3JhbSI6IHsKICAgICAgImVuYWJsZSI6IGZhbHNlLAogICAgICAicGFnZXMiOiA1LAogICAgICAiZXhjbHVkZSI6ICIiLAogICAgICAiY2hhbm5lbHMiOiB7fQogICAgfSwKICAgICJnb29nbGUiOiB7CiAgICAgICJlbmFibGUiOiBmYWxzZSwKICAgICAgImV4Y2x1ZGUiOiAiIiwKICAgICAgImxpbWl0IjogMTAwLAogICAgICAiZGF5cyI6IDcsCiAgICAgICJleGNsdWRlX3NpdGVzIjogW10sCiAgICAgICJwdXNoX3RvIjogW10KICAgIH0sCiAgICAieWFuZGV4IjogewogICAgICAiZW5hYmxlIjogZmFsc2UsCiAgICAgICJleGNsdWRlIjogIiIsCiAgICAgICJkYXlzIjogMywKICAgICAgInBhZ2VzIjogNSwKICAgICAgImV4Y2x1ZGVfc2l0ZXMiOiBbXSwKICAgICAgInB1c2hfdG8iOiBbXQogICAgfSwKICAgICJnaXRodWIiOiB7CiAgICAgICJlbmFibGUiOiB0cnVlLAogICAgICAicGFnZXMiOiAyLAogICAgICAicHVzaF90byI6IFtdLAogICAgICAiZXhjbHVkZSI6ICIiLAogICAgICAiZXhjbHVkZV9yZXBvcyI6IFtdCiAgICB9LAogICAgInR3aXR0ZXIiOiB7CiAgICAgICJlbmFibGUiOiBmYWxzZSwKICAgICAgInVzZXJzIjoge30KICAgIH0sCiAgICAicmVwb3NpdG9yaWVzIjogW10sCiAgICAicGFnZXMiOiBbXSwKICAgICJzY3JpcHRzIjogW10KICB9LAogICJncm91cHMiOiB7CiAgICAiZGVmYXVsdCI6IHsKICAgICAgImVtb2ppIjogdHJ1ZSwKICAgICAgImxpc3Rfb25seSI6IHRydWUsCiAgICAgICJ0YXJnZXRzIjogewogICAgICAgICJjbGFzaCI6ICJjbGFzaCIKICAgICAgfSwKICAgICAgInJlZ3VsYXJpemUiOiB7CiAgICAgICAgImVuYWJsZSI6IGZhbHNlLAogICAgICAgICJsb2NhdGUiOiB0cnVlLAogICAgICAgICJyZXNpZGVudGlhbCI6IHRydWUsCiAgICAgICAgImRpZ2l0cyI6IDIKICAgICAgfQogICAgfQogIH0sCiAgInN0b3JhZ2UiOiB7CiAgICAiZW5naW5lIjogImdpc3QiLAogICAgImJhc2UiOiAiIiwKICAgICJkb21haW4iOiAiIiwKICAgICJpdGVtcyI6IHsKICAgICAgImNsYXNoIjogewogICAgICAgICJ1c2VybmFtZSI6ICJKaWFuZzA2MDIwMiIsCiAgICAgICAgImdpc3RfaWQiOiAiZGRmODU4NTVkNTgzN2Q3ZGZjY2JmYWM0NjAxMTFkYmIiLAogICAgICAgICJmaWxlbmFtZSI6ICJjbGFzaC55YW1sIgogICAgICB9LAogICAgICAiY3Jhd2xlZHN1YnMiOiB7CiAgICAgICAgInVzZXJuYW1lIjogIkppYW5nMDYwMjAyIiwKICAgICAgICAiZ2lzdF9pZCI6ICJkZGY4NTg1NWQ1ODM3ZDdkZmNjYmZhYzQ2MDExMWRiYiIsCiAgICAgICAgImZpbGVuYW1lIjogImNyYXdsZWRzdWJzLnR4dCIKICAgICAgfSwKICAgICAgImNyYXdsZWRwcm94aWVzIjogewogICAgICAgICJ1c2VybmFtZSI6ICJKaWFuZzA2MDIwMiIsCiAgICAgICAgImdpc3RfaWQiOiAiZGRmODU4NTVkNTgzN2Q3ZGZjY2JmYWM0NjAxMTFkYmIiLAogICAgICAgICJmaWxlbmFtZSI6ICJjcmF3bGVkcHJveGllcy50eHQiCiAgICAgIH0KICAgIH0KICB9Cn0=
+{
+  "sites": [],
+  "crawl": {
+    "enable": true,
+    "exclude": "",
+    "max_fails": 5,
+    "include_nodes": true,
+    "persist": {
+      "subscribe": "crawledsubs",
+      "nodes": "crawledproxies"
+    },
+    "task": {
+      "rename": "",
+      "include": "",
+      "exclude": ""
+    },
+    "telegram": {
+      "enable": false,
+      "pages": 5,
+      "exclude": "",
+      "channels": {}
+    },
+    "google": {
+      "enable": false,
+      "exclude": "",
+      "limit": 100,
+      "days": 7,
+      "exclude_sites": [],
+      "push_to": []
+    },
+    "yandex": {
+      "enable": false,
+      "exclude": "",
+      "days": 3,
+      "pages": 5,
+      "exclude_sites": [],
+      "push_to": []
+    },
+    "github": {
+      "enable": true,
+      "pages": 2,
+      "push_to": [],
+      "exclude": "",
+      "exclude_repos": []
+    },
+    "twitter": {
+      "enable": false,
+      "users": {}
+    },
+    "repositories": [],
+    "pages": [],
+    "scripts": []
+  },
+  "groups": {
+    "default": {
+      "emoji": true,
+      "list_only": true,
+      "targets": {
+        "clash": "clash"
+      },
+      "regularize": {
+        "enable": false,
+        "locate": true,
+        "residential": true,
+        "digits": 2
+      }
+    }
+  },
+  "storage": {
+    "engine": "gist",
+    "base": "",
+    "domain": "",
+    "items": {
+      "clash": {
+        "username": "Jiang060202",
+        "gist_id": "ddf85855d5837d7dfccbfac460111dbb",
+        "filename": "clash.yaml"
+      },
+      "crawledsubs": {
+        "username": "Jiang060202",
+        "gist_id": "ddf85855d5837d7dfccbfac460111dbb",
+        "filename": "crawledsubs.txt"
+      },
+      "crawledproxies": {
+        "username": "Jiang060202",
+        "gist_id": "ddf85855d5837d7dfccbfac460111dbb",
+        "filename": "crawledproxies.txt"
+      }
+    }
+  }
+}
